@@ -1,0 +1,11 @@
+nav - menu, listas e etc (conjunto de links)
+
+main - conteudo principal de um site
+
+section - uma secao tema do conteudo (ultimas noticias - confira as noticias)
+
+article - um artigo do site, como blog e etc ( sabia que o omega 3 pode ser contaminado?)
+
+aside - barras laterais e etc (menu, por exemplo)
+
+footer - rodape
