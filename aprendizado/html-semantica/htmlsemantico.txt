@@ -9,3 +9,12 @@ article - um artigo do site, como blog e etc ( sabia que o omega 3 pode ser cont
 aside - barras laterais e etc (menu, por exemplo)
 
 footer - rodape
+
+blockquote - marcar paragrafo que estamos citando que seja de alguem (cite: de onde veio)
+
+q - citacao com ""
+
+em - enfase em uma certa frase
+
+strong - destacando, mesma coisa q em
+
