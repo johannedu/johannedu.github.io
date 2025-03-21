@@ -1,10 +1,27 @@
-button {
-    display: inline-block;
-    width: 150px;
-    height: 50px;
-    margin: 10px;
-    background-color: blue;
-    color: white;
-    text-align: center;
-    line-height: 50px;
+
+.divpai {
+    border: 1px solid black;
+    width: 49rem;
+    height: 40rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divum {
+    border: 1px solid red;
+    width: 10rem;
+    height: 10rem;
+}
+
+.divdois {
+    border: 1px solid blue;
+    width: 10rem;
+    height: 10rem;
+}
+
+.divtres{
+    border: 1px solid green;
+    width: 10rem;
+    height: 10rem;
 }
