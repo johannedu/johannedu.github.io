@@ -1,84 +1,55 @@
-body{
+body {
     display: grid;
     justify-items: center;
-    gap: 15px;
-    background: #d1cacab8;
+    margin: 20px;
+    background: #00000025;
     font-family: Arial, Helvetica, sans-serif;
-    align-items: center
 }
 
-.logo {
-    margin-top: 20pxpx;
-}
-
-
-ul {
-    list-style: circle;
-    display: flex;
-    gap: 1.5rem 1.9rem;
-    
+header {
+    display: grid;
+    justify-items: center;
 }
 
 a {
     text-decoration: none;
-    color: #fff;
-    background: rgb(255, 0, 0);
+    margin: 10px;
+    color: white;
+    background: #ff0000;
     padding: 10px;
+    display: inline-block;
+    font-size: 1.2rem;
+    border-radius: 6px;
     border: 1px solid black;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-weight: 700;
-    transition: 0.5s;
 }
 
-a:hover {
-    background-color: #fff;
-    color: rgb(255, 0, 0);
+main {
+    background: #ffffff;
+    padding: 10px;
+    display: grid;
+    text-align: right;
+    justify-items: end;
 }
 
-img {
+#a-main {
+    width: 80px;
+    text-align: center;
+}
+
+#bikcraft {
     max-width: 100%;
 }
-
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 1000px;
-    
 }
 
-main {
-    background: #f9f9f9;
-    border-radius: 0.125rem;
-    padding: 1.0rem;
-    text-align: end;
+h2 {
+    font-size: 64px;
+    color: #0000003a;
 }
 
-.botao {
-    background: rgb(255, 0, 0);
-    color: white;
-    border: 1px solid black ;
-    display: inline-block;
-}
-
-.vantagens-logo {
-    font-size: 4.0rem;
-    color: #00000037;
-}
-
-.vantagens {
-    background: #fff; 
-}
-
-.vantagens-item{
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 0px 0.6rem;
-    padding: 0.3rem;
-    align-items: center;
-}
-
-.vantagens-item p {
-    grid-column: 2;
+.items {
+    background: #fff;
 }
