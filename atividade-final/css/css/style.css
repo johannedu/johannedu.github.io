@@ -1,55 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
 body {
+    margin: 0px;
     display: grid;
+    gap: 20px;
     justify-items: center;
-    margin: 20px;
-    background: #00000025;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    font-family: "Poppins";
+    background-color: #f1f1f1;
 }
 
-header {
-    display: grid;
-    justify-items: center;
+.menu {
+    display: flex;
+    gap: 10px 20px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+} 
+
+.menu :hover {
+    border: 1px solid black;
+    background: #ffffff;
+    color: rgb(255, 0, 0);
+    transition: 0.6s;
+
 }
 
 a {
-    text-decoration: none;
-    margin: 10px;
-    color: white;
     background: #ff0000;
+    text-decoration: none;
     padding: 10px;
-    display: inline-block;
-    font-size: 1.2rem;
+    border: none;
     border-radius: 6px;
-    border: 1px solid black;
+    color: white;
 }
 
 main {
-    background: #ffffff;
-    padding: 10px;
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+}
+
+.introducao {
+    display: grid;
+    background: #fff;
+    padding: 40px;
     text-align: right;
+    gap: 20px;
+    align-content: center;
     justify-items: end;
 }
 
-#a-main {
-    width: 80px;
-    text-align: center;
-}
-
-#bikcraft {
-    max-width: 100%;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.introducao p {
+    font-size: 1.3rem;
 }
 
 h2 {
     font-size: 64px;
-    color: #0000003a;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.2);
+    text-align: right;
+    padding: 40px;
+    align-self: center;
 }
 
-.items {
-    background: #fff;
+.vantagens {
+    display: grid;
+    gap: 2rem;
+    background: #ffffff; 
+    padding: 10px;
+}
+
+.vantagens-item {
+    display: grid;
+    grid-template-columns: 50px 1fr; 
+    align-items: center; 
+    gap: 1rem; 
+}
+
+.vantagens-item img {
+    width: 30px; 
+    height: auto;
+}
+
+.vantagens-item h3 {
+    margin: 0; 
+    font-size: 1.2rem;
+}
+
+.vantagens-item p {
+    grid-column: 2 ; 
+    margin-top: 0.5rem; 
+    font-size: 1rem;
+}
+
+
+#bickraft{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 1000px) {
+    #conteudo-vantagem{
+        grid-template-columns: 1fr;
+    }
+    .subtitulo {
+        text-align: center;
+    }
+}
+
+@media (max-width> 600px) {
+    .introducao {
+        text-align: left;
+        display: none;
+        justify-items: start;
+    }
+    .introducao::before {
+        text-align: left;
+        display: none;
+        
+    }
+    header {
+        gap: 30px;
+    }
+    body {
+        gap: 30px;
+        margin: 20px;
+    }
+    .conteudo {
+        grid-template-columns: 1fr;
+    }
 }
