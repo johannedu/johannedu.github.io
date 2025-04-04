@@ -1,7 +1,7 @@
 .grid-container {
     display: grid;
     gap: 10px;
-    grid-template-columns:repeat(3, 3fr);
+    grid-template-columns:repeat(3,1fr);
 }
 
 .grid-item  {
@@ -11,10 +11,11 @@
 .grid-item1  {
     background: #ff0000;
     padding: 5rem;
-    grid-column: 1 / -1;
+    text-align: center;
 }
 .grid-item2  {
     background: #a6ff00;
     padding: 5rem;
     grid-column: 2 / 3;
+    text-align: center;
 }
